@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131313;
+}
+  
+.container {
+    width: max-content;
+    margin: 100px auto 0 auto;
+    padding: 85px 150px 0 150px;
+    display: flex;
+    gap: 12px;
+}
+  
+.chips__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 6px;
+    row-gap: 10px;
+    align-items: center;
+    width: 484px;
+}
+  
+.chips__wrapper {
+    margin: auto 0;
+}
+
+.card {
+    background-color: #000;
+    color: #A0A0A0;
+    padding: 44px 44px 16px 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    width: 484px;
+}
+  
+.pokemon-name {
+    font-size: 48px;
+}
+  
+.list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 17px;
+}
+
+.image {
+    margin: 0 auto;
+}
+
+.MuiChip-label {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.MuiChip-action {
+    background-color: #1986EC;
+    border-radius: 40px;
+}
+
+.MuiChip-root {
+    height: max-content;
+}
